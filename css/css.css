@@ -1,8 +1,16 @@
 body {
-  flex-direction: row;
+  text-align: center;
+  clear: both;
 }
 img{
-  flex-direction: row;
   height: 50px;
   width: 50px;
+}
+li{
+  padding:2px;
+  margin:0 2px;
+  border:1px solid #fff;
+  display:inline-block;
+  vertical-align:middle;
+  text-align:left;
 }
