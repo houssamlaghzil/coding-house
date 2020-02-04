@@ -2,10 +2,18 @@ body {
   text-align: center;
   clear: both;
 }
+
+header{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
 img{
   height: 50px;
   width: 50px;
 }
+
 li{
   padding:2px;
   margin:0 2px;
@@ -14,3 +22,11 @@ li{
   vertical-align:middle;
   text-align:left;
 }
+
+#classements{
+  display : flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
