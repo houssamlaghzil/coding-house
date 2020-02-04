@@ -27,6 +27,10 @@ li{
   display : flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+}
+
+#classements section {
+  margin-right: 5% ;
+  margin-left: 5% ;
 }
 
