@@ -1,0 +1,8 @@
+body {
+  flex-direction: row;
+}
+img{
+  flex-direction: row;
+  height: 50px;
+  width: 50px;
+}
