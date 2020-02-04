@@ -1,6 +1,8 @@
 body {
   text-align: center;
   clear: both;
+  background-image:url(https://www.itescia.fr/sites/itescia/files/styles/image_illustration_actualite/public/thumbnails/image/coding-day-itescia-coding-factory.png?itok=5IUT1tQN);
+  background-size: 100% auto;
 }
 
 header{
@@ -22,11 +24,10 @@ li{
   vertical-align:middle;
   text-align:left;
 }
-
 #classements{
   display : flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+
 }
 
