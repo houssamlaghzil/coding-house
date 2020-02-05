@@ -1,39 +1,48 @@
 body {
   text-align: center;
-  clear: both;
-  /*
-  background-image:url(https://www.itescia.fr/sites/itescia/files/styles/image_illustration_actualite/public/thumbnails/image/coding-day-itescia-coding-factory.png?itok=5IUT1tQN);
-  background-size: auto 100%;
-  */
-
+  background-color: #C8C8CF;
+  font-size: 150%;
 }
 
 header{
   display: flex;
   justify-content: center;
+  flex-direction: row ;
   flex-wrap: nowrap;
+  background-color: #44153C;
+  color : #C8C8CF ;
 }
 
-img{
-  height: 50px;
-  width: 50px;
+footer{
+  background-color: black;
+  color : #C8C8CF ;
+  padding: 3%;
 }
 
 li{
   padding:2px;
   margin:0 2px;
-  border:1px solid #fff;
-  display:inline-block;
-  vertical-align:middle;
-  text-align:left;
+  display:inline-flex;
+  vertical-align : middle;
+  text-align:center;
 }
+
+#logo{
+  height: 50px;
+  width: 50px;
+}
+
 #classements{
+  width: 95%;
   display : flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap : wrap;
+  justify-content : center;
 }
 
 #classements section {
+  margin-top : 7% ;
+  margin-bottom : 7% ;
   margin-right: 5% ;
   margin-left: 5% ;
 }
