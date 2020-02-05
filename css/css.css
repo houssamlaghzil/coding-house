@@ -1,8 +1,11 @@
 body {
   text-align: center;
   clear: both;
+  /*
   background-image:url(https://www.itescia.fr/sites/itescia/files/styles/image_illustration_actualite/public/thumbnails/image/coding-day-itescia-coding-factory.png?itok=5IUT1tQN);
-  background-size: 100% auto;
+  background-size: auto 100%;
+  */
+
 }
 
 header{
