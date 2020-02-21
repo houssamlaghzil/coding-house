@@ -50,7 +50,7 @@ header {
   width: 100%;
 }
 
-menu #Acceuil {
+menu #home_menu {
   padding-right: 5px;
   justify-content: space-between;
   transition-duration: 0.5s;
@@ -59,7 +59,7 @@ menu #Acceuil {
   text-align: center;
 }
 
-#Acceuil:hover {
+#home_menu:hover {
   font-size: 30px;
   padding-right: 1em;
   padding-left: 1em;
@@ -70,7 +70,7 @@ menu #Acceuil {
   text-align: center;
 }
 
-menu #classement {
+menu #ranking_menu {
 
 
   padding-right: 5px;
@@ -81,7 +81,7 @@ menu #classement {
   text-align: center;
 }
 
-#classement:hover {
+#ranking_menu:hover {
 text-shadow: 1px 1px 2px red, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
   font-size: 30px;
   padding-right: 1em;
@@ -93,7 +93,7 @@ text-shadow: 1px 1px 2px red, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
   text-align: center;
 }
 
-menu #Maison {
+menu #houses_menu{
   justify-content: space-between;
   transition-duration: 0.5s;
   display: inline-flex;
@@ -101,7 +101,7 @@ menu #Maison {
   text-align: center;
 }
 
-#Maison:hover {
+#houses_menu:hover {
 text-shadow: 1px 1px 2px red, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
 
   font-size: 30px;
@@ -113,7 +113,7 @@ text-shadow: 1px 1px 2px red, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
   text-align: center;
 }
 
-menu #Régles {
+menu #rules_menu {
 
 
   padding-right: 5px;
@@ -124,7 +124,7 @@ menu #Régles {
   text-align: center;
 }
 
-#Régles:hover {
+#rules_menu:hover {
 text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   font-size: 30px;
   padding-right: 1em;
@@ -136,7 +136,7 @@ text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   text-align: center;
 }
 
-menu #Defi {
+menu #challenge_menu {
 
 
   padding-right: 5px;
@@ -147,7 +147,7 @@ menu #Defi {
   text-align: center;
 }
 
-#Defi:hover {
+#challenge_menu:hover {
 text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   font-size: 30px;
   padding-right: 1em;
@@ -159,7 +159,7 @@ text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   text-align: center;
 }
 
-menu #Login {
+menu #login_menu {
   padding-right: 5px;
   justify-content: space-between;
   transition-duration: 0.5s;
@@ -168,7 +168,7 @@ menu #Login {
   text-align: center;
 }
 
-#Login:hover {
+#login_menu:hover {
 text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   font-size: 30px;
   padding-right: 1em;
