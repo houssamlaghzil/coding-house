@@ -82,7 +82,7 @@ li{
   vertical-align: text-bottom;
 }
 
-#classements{
+#rankings{
   background-size: 50% 50%;
   display : flex;
   flex-direction: column;
@@ -107,7 +107,7 @@ li{
   width: 150px;
 }
 
-#pseudoClassement{
+#rankingNamesUsers{
   display: flex;
   flex-direction: row;
   flex-wrap : wrap;
