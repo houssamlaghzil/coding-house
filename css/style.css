@@ -1,25 +1,9 @@
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-
 
 
 body {
 
-  background: linear-gradient(-45deg, #44153C, #C8C8CF, black, #034ed5);
+  background-color: #C8C8CF;
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-
-
   transition-duration: 0.5s;
   text-align: center;
   font-size: 150%;
@@ -68,8 +52,8 @@ li{
   display:inline-flex;
   vertical-align : middle;
   text-align:center;
-}li:hover{
-   transition-duration: 0.5s;
+
+}li:hover{transition-duration: 0.5s;
   padding:5px;
   margin:0 5px;
   display:inline-flex;
@@ -80,14 +64,16 @@ li{
 
 #logo{
   transition-duration: 0.5s;
-   height: 50px;
-   width: 50px;
+  height: 50px;
+  width: 50px;
   padding-top: 15px;
- }#logo:hover{
-    transition-duration: 0.5s;
-    height: 60px;
-    width: 60px;
-    padding-top: 13px;
+ }
+
+#logo:hover{
+  transition-duration: 0.5s;
+  height: 60px;
+  width: 60px;
+  padding-top: 13px;
   }
 
 .logoMaison{
@@ -97,24 +83,37 @@ li{
 }
 
 #classements{
-  background: radial-gradient( #44153C, #C8C8CF, black, #034ed5);
   background-size: 50% 50%;
-  animation: gradient 15s ease infinite;
-
   display : flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap : wrap;
   justify-content : center;
 }
 
-#classements section {
-  margin-bottom: 5%;
-  margin-right: 5% ;
-  margin-left: 5% ;
+#logoHousesPodium{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.logoPodium{
+
+  height: 125px;
+  width: 125px;
 }
 
-.lignesClassement  {
-  padding-left: 17%;
-  text-align: left ;
-
+.logoPodiumFirst{
+  height: 150px;
+  width: 150px;
 }
+
+#pseudoClassement{
+  display: flex;
+  flex-direction: row;
+  flex-wrap : wrap;
+  justify-content: space-around;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
