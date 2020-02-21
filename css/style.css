@@ -29,8 +29,6 @@ body {
 }
 
 header{
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
   transition-duration: 0.2s;
   display: flex;
   justify-content: center;
@@ -41,8 +39,6 @@ header{
 }
 
 footer{
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
   transition-duration: 0.8s;
   background-color: black;
   color : #C8C8CF ;
