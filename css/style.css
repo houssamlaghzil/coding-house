@@ -1,5 +1,4 @@
 body {
-
   background-color: #C8C8CF;
   background-size: 400% 400%;
   transition-duration: 0.5s;
@@ -19,14 +18,19 @@ header {
   background-color: #44153C;
   color: #C8C8CF;
 }
+section #rankings{
+  justify-content: center;
+}
+
 
 footer {
+  bottom:0;
+  width:100%;
+  padding-top:50px;
   transition-duration: 0.8s;
   background-color: black;
   color: #C8C8CF;
-  padding: 3%;
   margin: 0;
-  display: table-row;
   height: 100px; /* à titre d'exemple */
 }
 
