@@ -189,6 +189,11 @@ li {
   text-align: center;
 }
 
+a, a:visited, a:link, a:hover, a:active {
+  text-decoration: none;
+  color: #C8C8CF;
+}
+
 ul {
 
 
@@ -264,4 +269,3 @@ ul:hover {
   margin-left: 20%;
   margin-right: 20%;
 }
-
