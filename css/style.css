@@ -60,6 +60,7 @@ menu #home_menu {
 }
 
 #home_menu:hover {
+  text-shadow: 1px 1px 2px #5d43f3, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
   font-size: 30px;
   padding-right: 1em;
   padding-left: 1em;
@@ -71,8 +72,6 @@ menu #home_menu {
 }
 
 menu #ranking_menu {
-
-
   padding-right: 5px;
   justify-content: space-between;
   transition-duration: 0.5s;
@@ -82,7 +81,7 @@ menu #ranking_menu {
 }
 
 #ranking_menu:hover {
-text-shadow: 1px 1px 2px red, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
+  text-shadow: 1px 1px 2px #5d43f3, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
   font-size: 30px;
   padding-right: 1em;
   padding-left: 1em;
@@ -102,8 +101,7 @@ menu #houses_menu{
 }
 
 #houses_menu:hover {
-text-shadow: 1px 1px 2px red, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
-
+  text-shadow: 1px 1px 2px #5d43f3, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
   font-size: 30px;
   padding-left: 1em;
   justify-content: space-between;
@@ -114,8 +112,6 @@ text-shadow: 1px 1px 2px red, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
 }
 
 menu #rules_menu {
-
-
   padding-right: 5px;
   justify-content: space-between;
   transition-duration: 0.5s;
@@ -125,7 +121,7 @@ menu #rules_menu {
 }
 
 #rules_menu:hover {
-text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  text-shadow: 1px 1px 2px #5d43f3, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
   font-size: 30px;
   padding-right: 1em;
   padding-left: 1em;
@@ -137,8 +133,6 @@ text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 menu #challenge_menu {
-
-
   padding-right: 5px;
   justify-content: space-between;
   transition-duration: 0.5s;
@@ -148,7 +142,7 @@ menu #challenge_menu {
 }
 
 #challenge_menu:hover {
-text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  text-shadow: 1px 1px 2px #5d43f3, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
   font-size: 30px;
   padding-right: 1em;
   padding-left: 1em;
@@ -160,7 +154,7 @@ text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 menu #login_menu {
-  padding-right: 5px;
+   padding-right: 5px;
   justify-content: space-between;
   transition-duration: 0.5s;
   display: inline-flex;
@@ -169,7 +163,7 @@ menu #login_menu {
 }
 
 #login_menu:hover {
-text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  text-shadow: 1px 1px 2px #5d43f3, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
   font-size: 30px;
   padding-right: 1em;
   padding-left: 1em;
