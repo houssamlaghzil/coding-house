@@ -18,15 +18,15 @@ header {
   background-color: #44153C;
   color: #C8C8CF;
 }
-section #rankings{
+
+section #rankings {
   justify-content: center;
 }
 
-
 footer {
-  bottom:0;
-  width:100%;
-  padding-top:50px;
+  bottom: 0;
+  width: 100%;
+  padding-top: 50px;
   transition-duration: 0.8s;
   background-color: black;
   color: #C8C8CF;
@@ -259,8 +259,6 @@ a, a:visited, a:link, a:hover, a:active {
 }
 
 ul {
-
-
   justify-content: space-between;
   display: inline-flex;
   vertical-align: middle;
