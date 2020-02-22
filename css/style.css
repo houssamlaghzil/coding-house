@@ -31,7 +31,6 @@ footer {
 }
 
 
-
 html, body {
   height: 100%;
   margin: 0;
@@ -92,7 +91,7 @@ menu #ranking_menu {
   text-align: center;
 }
 
-menu #houses_menu{
+menu #houses_menu {
   justify-content: space-between;
   transition-duration: 0.5s;
   display: inline-flex;
@@ -154,7 +153,7 @@ menu #challenge_menu {
 }
 
 menu #login_menu {
-   padding-right: 5px;
+  padding-right: 5px;
   justify-content: space-between;
   transition-duration: 0.5s;
   display: inline-flex;
@@ -229,35 +228,36 @@ ul:hover {
   vertical-align: text-bottom;
 }
 
-#rankings{
+#rankings {
   background-size: 50% 50%;
-  display : flex;
+  display: flex;
   flex-direction: column;
-  flex-wrap : wrap;
-  justify-content : center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#logoHousesPodium{
+#logoHousesPodium {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
 }
-.logoPodium{
+
+.logoPodium {
 
   height: 125px;
   width: 125px;
 }
 
-.logoPodiumFirst{
+.logoPodiumFirst {
   height: 150px;
   width: 150px;
 }
 
-#rankingNamesUsers{
+#rankingNamesUsers {
   display: flex;
   flex-direction: row;
-  flex-wrap : wrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   text-align: left;
   margin-left: 20%;
