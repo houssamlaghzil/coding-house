@@ -1,3 +1,82 @@
+/*backgroud*/
+h2{
+  margin:auto;
+  color:white;
+  mix-blend-mode:difference;
+  font-size:150px;
+}p{
+   margin:auto;
+   color:white;
+   mix-blend-mode:difference;
+ }
+html {
+  height:100%;
+}
+a.css{
+  transition-duration: 0.7s;
+  background: #5d43f3;
+  border-radius: 10% 20px;
+  font-size: 20px;
+}a.css:hover{
+   transition-duration: 0.7s;
+   background: rgba(32, 22, 86, 0.86);
+   border-radius: 5% 40px;
+   font-size: 25px;
+ }
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 5s ease-in-out infinite alternate;
+  background-image: linear-gradient(33deg, #a5cd70 25%, #2f171f 25%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:6s;
+}
+
+.bg3 {
+  animation-duration:7s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(21, 109, 156, 0.68);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+/*backgroud*/
+
+
 body {
   background-color: #C8C8CF;
   background-size: 400% 400%;
@@ -8,18 +87,6 @@ body {
   display: table;
   width: 100%;
   height: 100%;
-}
-
-a.css{
-  transition-duration: 0.7s;
-  background: #5d43f3;
-  border-radius: 10% 20px;
-  font-size: 20px;
-}a.css:hover{
-   transition-duration: 0.7s;
-   background: rgba(32, 22, 86, 0.86);
-  border-radius: 5% 40px;
-  font-size: 25px;
 }
 
 header {
@@ -54,78 +121,6 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
-/*backgroud*/
-h2 {
-  margin: auto;
-  color: white;
-  mix-blend-mode: difference;
-  font-size: 150px;
-}
-
-p {
-  margin: auto;
-  color: white;
-  mix-blend-mode: difference;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-}
-
-.bg {
-  animation: slide 5s ease-in-out infinite alternate;
-  background-image: linear-gradient(33deg, #54a1be 25%, #a5cd70 25%);
-  bottom: 0;
-  left: -50%;
-  opacity: .5;
-  position: fixed;
-  right: -50%;
-  top: 0;
-  z-index: -1;
-}
-
-.bg2 {
-  animation-direction: alternate-reverse;
-  animation-duration: 6s;
-}
-
-.bg3 {
-  animation-duration: 7s;
-}
-
-.content {
-  background-color: rgba(255, 255, 255, .8);
-  border-radius: .25em;
-  box-shadow: 0 0 .25em rgba(21, 109, 156, 0.68);
-  box-sizing: border-box;
-  left: 50%;
-  padding: 10vmin;
-  position: fixed;
-  text-align: center;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-h1 {
-  font-family: monospace;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(-25%);
-  }
-  100% {
-    transform: translateX(25%);
-  }
-}
-
-/*backgroud*/
-
 
 h2 {
   transition-duration: 1s;
@@ -350,5 +345,7 @@ ul:hover {
   margin-left: 20%;
   margin-right: 20%;
 }
+
+
 
 
