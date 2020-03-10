@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Coding house</title>
-  <link rel="stylesheet" href="css/style.css"/>
-  <link rel="stylesheet" href="css/default.css"/>
+  <link id="cssTheme" rel="stylesheet" href="css/default.css" title="defaultStyle"/>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- <link rel="alternate stylesheet" href="css/crackend.css" title="otherStyle" /> -->
 
 </head>
 
@@ -15,11 +16,17 @@
   <img id="logo" src="img/logo.png" alt="logo">
   <div id="menu">
 
-    <form>
+    <div id="cssThemeSwitcher">
+      <button id="defaultTheme" class="css" onclick="document.getElementById('cssTheme').href='css/default.css';">Default theme</button>
+      <button id="crackendTheme" class="css" onclick="document.getElementById('cssTheme').href='css/crackend.css';">Crack'end theme</button>
+      <button id="phoenixmlTheme" class="css" onclick="document.getElementById('cssTheme').href='css/phoenixml.css';">PhoeniXML Theme</button>
+      <button id="gistuneTheme" class="css" onclick="document.getElementById('cssTheme').href='css/gitsune.css';">Gistune Theme</button>
+      <!--
       <a class="css" href="home_crackend.html">theme crackend</a>
       <a class="css" href="home_gitsune.html">theme gitsune</a>
       <a class="css" href="home_phoenixml.html">theme phoenixml</a>
-    </form>
+      -->
+    </div>
 
     <ul>
       <li id="home_menu"><a href="home.html">Accueil</a></li>
