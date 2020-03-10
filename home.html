@@ -4,32 +4,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Coding house</title>
-  <link rel="stylesheet" href="css/style.css"/>
-  <link rel="stylesheet" href="css/default.css"/>
-
+  <link id="cssTheme" rel="stylesheet" href="css/themes/default.css" title="defaultStyle"/>
+  <link  rel="stylesheet" href="css/pages/home.css" title="defaultStyle"/>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
 
 <header>
-  <img id="logo" src="img/logo.png" alt="logo">
+
   <div id="menu">
+    <div id="cssThemeSwitcher">
+      <button id="defaultTheme" class="cssTheme" onclick="document.getElementById('cssTheme').href='css/themes/default.css';">Thème Default</button>
+      <button id="crackendTheme" class="cssTheme" onclick="document.getElementById('cssTheme').href='css/themes/crackend.css';">Thème Crack'end</button>
+      <button id="phoenixmlTheme" class="cssTheme" onclick="document.getElementById('cssTheme').href='css/themes/phoenixml.css';">Thème PhoeniXML</button>
+      <button id="gistuneTheme" class="cssTheme" onclick="document.getElementById('cssTheme').href='css/themes/gitsune.css';">Thème Gistune</button>
+    </div>
 
-    <form>
-      <a class="css" id="css_default" href="home.html">theme default</a>
-      <a class="css" id="css_crackend" href="home_crackend.html">theme crackend</a>
-      <a class="css" id="css_gitsune" href="home_gitsune.html">theme gitsune</a>
-      <a class="css" id="css_phoenixml" href="home_phoenixml.html">theme phoenixml</a>
-    </form>
-
-    <ul>
-      <li id="home_menu"><a href="home.html">Accueil</a></li>
-      <li id="ranking_menu"><a href="home.html">Classements</a></li>
-      <li id="houses_menu"><a href="houses.html">Maisons</a></li>
-      <li id="rules_menu"><a href="rules.html">Règles</a></li>
-      <li id="challenge_menu"><a href="home.html">Défis</a></li>
-      <li id="login_menu"><a href="login.html">Login</a></li>
-    </ul>
+    <div id="pagesMenu">
+      <img id="logo" src="img/logo.png" alt="logo">
+      <a class="menuLink" href="home.html">Accueil</a>
+      <a class="menuLink" href="home.html">Classements</a>
+      <a class="menuLink" href="houses.html">Maisons</a>
+      <a class="menuLink" href="rules.html">Règles</a>
+      <a class="menuLink" href="home.html">Défis</a>
+      <a class="menuLink" href="login.html">Login</a>
+    </div>
   </div>
 
 </header>
@@ -46,7 +46,7 @@
     <section id=logoHousesPodium>
 
       <section>
-        <img class="logoPodium" src="img/logo.png" alt="logo de la maison">
+        <img class="logoPodium" src="img/logoGitsune.png" alt="logo de la maison">
         <p>2</p>
       </section>
       <section>
@@ -67,12 +67,12 @@
 
     <section id=rankingNamesUsers>
       <p>
-        <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 1. blibli
+        <br/> <img class="houseIcon" src="img/logoGitsune.png" alt="logo de la maison"> 1. blibli
         <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 2. blublu
         <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 3. blibli
         <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 4. blublu
-        <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 5. blibli
-        <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 6. blublu
+        <br/> <img class="houseIcon" src="img/logoGitsune.png" alt="logo de la maison"> 5. blibli
+        <br/> <img class="houseIcon" src="img/logoGitsune.png" alt="logo de la maison"> 6. blublu
         <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 7. blibli
         <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 8. blublu
         <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 9. blibli
@@ -80,11 +80,11 @@
       </p>
       <p>
         <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 11. blibli
-        <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 12. blublu
+        <br/> <img class="houseIcon" src="img/logoGitsune.png" alt="logo de la maison"> 12. blublu
         <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 13. blibli
-        <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 14. blublu
-        <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 15. blibli
-        <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 16. blublu
+        <br/> <img class="houseIcon" src="img/logoGitsune.png" alt="logo de la maison"> 14. blublu
+        <br/> <img class="houseIcon" src="img/logoGitsune.png" alt="logo de la maison"> 15. blibli
+        <br/> <img class="houseIcon" src="img/logoGitsune.png" alt="logo de la maison"> 16. blublu
         <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 17. blibli
         <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 18. blublu
         <br/> <img class="houseIcon" src="img/logo.png" alt="logo de la maison"> 19. blibli
