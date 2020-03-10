@@ -13,29 +13,26 @@
 <body>
 
 <header>
-  <img id="logo" src="img/logo.png" alt="logo">
-  <div id="menu">
 
+
+
+  <div id="menu">
     <div id="cssThemeSwitcher">
-      <button id="defaultTheme" class="css" onclick="document.getElementById('cssTheme').href='css/default.css';">Default theme</button>
-      <button id="crackendTheme" class="css" onclick="document.getElementById('cssTheme').href='css/crackend.css';">Crack'end theme</button>
-      <button id="phoenixmlTheme" class="css" onclick="document.getElementById('cssTheme').href='css/phoenixml.css';">PhoeniXML Theme</button>
-      <button id="gistuneTheme" class="css" onclick="document.getElementById('cssTheme').href='css/gitsune.css';">Gistune Theme</button>
-      <!--
-      <a class="css" href="home_crackend.html">theme crackend</a>
-      <a class="css" href="home_gitsune.html">theme gitsune</a>
-      <a class="css" href="home_phoenixml.html">theme phoenixml</a>
-      -->
+      <button id="defaultTheme" class="cssTheme" onclick="document.getElementById('cssTheme').href='css/default.css';">Thème Default</button>
+      <button id="crackendTheme" class="cssTheme" onclick="document.getElementById('cssTheme').href='css/crackend.css';">Thème Crack'end</button>
+      <button id="phoenixmlTheme" class="cssTheme" onclick="document.getElementById('cssTheme').href='css/phoenixml.css';">Thème PhoeniXML</button>
+      <button id="gistuneTheme" class="cssTheme" onclick="document.getElementById('cssTheme').href='css/gitsune.css';">Thème Gistune</button>
     </div>
 
-    <ul>
-      <li id="home_menu"><a href="home.html">Accueil</a></li>
-      <li id="ranking_menu"><a href="home.html">Classements</a></li>
-      <li id="houses_menu"><a href="houses.html">Maisons</a></li>
-      <li id="rules_menu"><a href="rules.html">Règles</a></li>
-      <li id="challenge_menu"><a href="home.html">Défis</a></li>
-      <li id="login_menu"><a href="login.html">Login</a></li>
-    </ul>
+    <div id="pagesMenu">
+      <img id="logo" src="img/logo.png" alt="logo">
+      <a class="menuLink" href="home.html">Accueil</a>
+      <a class="menuLink" href="home.html">Classements</a>
+      <a class="menuLink" href="houses.html">Maisons</a>
+      <a class="menuLink" href="rules.html">Règles</a>
+      <a class="menuLink" href="home.html">Défis</a>
+      <a class="menuLink" href="login.html">Login</a>
+    </div>
   </div>
 
 </header>
