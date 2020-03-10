@@ -2,104 +2,71 @@
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Coding house</title>
-  <link rel="stylesheet" href="css/style.css"/>
-  <link rel="stylesheet" href="css/pages/carousel.css">
+    <meta charset="UTF-8">
+    <title>Coding house</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/carousel.css">
 </head>
 
 <body>
 
 <header>
-  <img id="logo" src="img/logo.png" alt="logo">
-  <div id="pagesMenu">
-    <ul>
-      <li id="home_menu"><a href="home.html">Accueil</a></li>
-      <li id="ranking_menu"><a href="home.html">Classements</a></li>
-      <li id="houses_menu"><a href="houses.html">Maisons</a></li>
-      <li id="rules_menu"><a href="rules.html">Règles</a></li>
-      <li id="challenge_menu"><a href="home.html">Défis</a></li>
-      <li id="login_menu"><a href="login.html">Login</a></li>
-    </ul>
-  </div>
+    <img id="logo" src="img/logo.png" alt="logo">
+    <div id="menu">
+        <ul>
+            <li id="home_menu"><a href="home.html">Accueil</a></li>
+            <li id="ranking_menu"><a href="home.html">Classements</a></li>
+            <li id="houses_menu"><a href="houses.html">Maisons</a></li>
+            <li id="rules_menu"><a href="rules.html">Règles</a></li>
+            <li id="challenge_menu"><a href="home.html">Défis</a></li>
+            <li id="login_menu"><a href="login.html">Login</a></li>
+        </ul>
+    </div>
 
 </header>
 
-
-<div class="slideshow-container">
-  <div class="bg"></div>
-  <div class="bg bg2"></div>
-  <div class="bg bg3"></div>
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <p>blublublublublublublublublu</p>
-    <div class="text">Caption Text</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <p>bliblibliblibliblibli</p>
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <p>blablablablablablablablablablablablablablabla</p>
-    <div class="text">Caption Three</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<div class="container">
+    <div class="card" id="Crackend_card">
+        <h3 class="title">Crackend</h3>
+        <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+        </div>
+        <div class="circle">
+            <p>
+                text
+            </p>
+        </div>
+    </div>
+    <div class="card" id="Gitsune_card">
+        <h3 class="title">Gitsune</h3>
+        <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+        </div>
+        <div class="circle">
+            <p>
+                text
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <h3 class="title">PhoeniXML</h3>
+        <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+        </div>
+        <p>
+            text
+        </p>
+    </div>
 </div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-
-<script>
-  var slideIndex = 1;
-  showSlides(slideIndex);
-
-  // Next/previous controls
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-
-  // Thumbnail image controls
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {
-      slideIndex = 1
-    }
-    if (n < 1) {
-      slideIndex = slides.length
-    }
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-  }
-</script>
+</div>
 
 <footer>
-  Coding Factory 2020
+    Coding Factory 2020
 </footer>
 
 </body>
