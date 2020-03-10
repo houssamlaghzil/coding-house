@@ -27,17 +27,11 @@ header {
   color: #C8C8CF;
 }
 
-#menu{
-  display : flex;
-  flex-direction: column;
-  width: 100%;
-}
-
 #cssThemeSwitcher{
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 10px;
   display : flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 #pagesMenu{
@@ -50,7 +44,7 @@ header {
 
 .cssTheme {
   mix-blend-mode: exclusion;
-  border-radius: 2% 30px;
+  border-radius: 5% 45px;
   font-size: 15px;
   outline: none ;
 }
@@ -109,6 +103,7 @@ header {
 }
 
 .menuLink{
+  margin: 5px;
   justify-content: space-between;
   display: inline-flex;
   flex-wrap: nowrap;
@@ -117,7 +112,7 @@ header {
 }
 
 .menuLink:hover{
-  /*text-shadow: 1px 1px 5px #2d2237, 0 0 0.2em #bbbcc4;*/
+  text-shadow: #250e1c 2px 2px 0px;
   color : #7d838a;
   transition-duration: 0.2s;
 }
@@ -172,42 +167,3 @@ a, a:visited, a:link, a:hover, a:active {
   vertical-align: text-bottom;
 }
 
-section #rankings {
-  justify-content: center;
-}
-
-#rankings {
-  background-size: 50% 50%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-#logoHousesPodium {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.logoPodium {
-
-  height: 125px;
-  width: 125px;
-}
-
-.logoPodiumFirst {
-  height: 150px;
-  width: 150px;
-}
-
-#rankingNamesUsers {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
-}
