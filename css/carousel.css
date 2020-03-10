@@ -49,6 +49,8 @@ body {
 }
 
 .card:hover {
+  z-index: 99999999;
+  opacity: 80%;
   height: 100%;
   width: 80%;
   transform: translateY(-20px);
