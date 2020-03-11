@@ -2,69 +2,92 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Coding house</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/pages/carousel.css">
+  <meta charset="UTF-8">
+  <title>Coding house</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+  <link id="cssTheme" rel="stylesheet" href="css/themes/default.css" title="defaultStyle"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/pages/carousel.css"/>
+
 </head>
 
 <body>
 
 <header>
-    <img id="logo" src="img/logo.png" alt="logo">
-    <div id="menu">
-        <ul>
-            <li id="home_menu"><a href="home.html">Accueil</a></li>
-            <li id="ranking_menu"><a href="home.html">Classements</a></li>
-            <li id="houses_menu"><a href="houses.html">Maisons</a></li>
-            <li id="rules_menu"><a href="rules.html">Règles</a></li>
-            <li id="challenge_menu"><a href="home.html">Défis</a></li>
-            <li id="login_menu"><a href="login.html">Login</a></li>
-        </ul>
+
+  <div id="menu">
+    <div id="cssThemeSwitcher">
+      <button id="defaultTheme" class="cssTheme"
+              onclick="document.getElementById('cssTheme').href='css/themes/default.css';">Thème Default
+      </button>
+      <button id="crackendTheme" class="cssTheme"
+              onclick="document.getElementById('cssTheme').href='css/themes/crackend.css';">Thème Crack'end
+      </button>
+      <button id="phoenixmlTheme" class="cssTheme"
+              onclick="document.getElementById('cssTheme').href='css/themes/phoenixml.css';">Thème PhoeniXML
+      </button>
+      <button id="gistuneTheme" class="cssTheme"
+              onclick="document.getElementById('cssTheme').href='css/themes/gitsune.css';">Thème Gistune
+      </button>
     </div>
+
+    <div id="pagesMenu">
+      <img id="logo" src="img/logo.png" alt="logo">
+      <a class="menuLink" href="home.html">Accueil</a>
+      <a class="menuLink" href="home.html">Classements</a>
+      <a class="menuLink" href="houses.html">Maisons</a>
+      <a class="menuLink" href="rules.html">Règles</a>
+      <a class="menuLink" href="home.html">Défis</a>
+      <a class="menuLink" href="login.html">Login</a>
+    </div>
+  </div>
 
 </header>
 
 <div class="container">
-    <div class="card" id="Crackend_card">
-        <h3 class="title">Crackend</h3>
-        <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
-        </div>
-        <div class="circle">
-            <p>
-                text
-            </p>
-        </div>
+
+  <div class="bg"></div>
+  <div class="bg bg2"></div>
+  <div class="bg bg3"></div>
+
+  <div class="card" id="Crackend_card">
+    <h3 class="title">Crack'End</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
     </div>
-    <div class="card" id="Gitsune_card">
-        <h3 class="title">Gitsune</h3>
-        <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
-        </div>
-        <div class="circle">
-            <p>
-                text
-            </p>
-        </div>
+    <div class="circle">
+      <p>
+        text
+      </p>
     </div>
-    <div class="card">
-        <h3 class="title">PhoeniXML</h3>
-        <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
-        </div>
-        <p>
-            text
-        </p>
+  </div>
+  <div class="card" id="Gitsune_card">
+    <h3 class="title">Gitsune</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
     </div>
+    <div class="circle">
+      <p>
+        text
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <h3 class="title">PhoeniXML</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+    <p>
+      text
+    </p>
+  </div>
 </div>
 
 <footer>
-    Coding Factory 2020
+  Coding Factory 2020
 </footer>
 
 </body>
