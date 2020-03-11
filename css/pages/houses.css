@@ -36,8 +36,11 @@ p {
   margin-top: 5em;
 }
 
-.story, .houseMembers{
+.cardContent{
   visibility: hidden;
+}
+.cardContent{
+  visibility: visible;
 }
 
 .container {
@@ -64,11 +67,23 @@ p {
   transition: 0.4s ease-out;
   position: relative;
   left: 0;
+  color : #45414f;
 }
 
 .card:not(:first-child) {
   justify-content: center;
   align-content: center;
+}
+.secretTitle, .story, .houseMembers{
+  visibility: hidden;
+}
+
+.card:hover .secretTitle, .card:hover .story, .card:hover .houseMembers {
+  visibility: visible;
+}
+
+img{
+  visibility: visible;
 }
 
 .card:hover {
@@ -79,6 +94,7 @@ p {
   transform: translateY(-20px);
   transition: 0.4s ease-out;
   word-break: break-word;
+  color : white;
 }
 
 .title {
