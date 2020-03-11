@@ -98,22 +98,16 @@ body {
 #Crackend_card{
   background: #070057;
 }
+
  */
 
 #Crackend_card .filledbar{
+  background: #070057;
   background: linear-gradient(90deg, #FFF9FF 0%, #006FA1 65%, #070057 100%);
 }
 
-#Gitsune_card .filledbar{
-  background: linear-gradient(90deg, #fffefc 0%, #bbb1a7 65%, #895f32 100%);
-}
-
-#PhoeniXMl_Card .filledbar{
-  background: linear-gradient(90deg, #ffee72 0%, #fa6c00 65%, #3d0000 100%);
-}
-
 .card:hover .filledbar {
-    width: 100%;
+    width: 120px;
     transition: 0.4s ease-out;
 }
 
