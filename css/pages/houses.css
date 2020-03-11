@@ -58,7 +58,7 @@ p {
 .card {
   display: flex;
   flex-grow: 1;
-  height: 100%;
+  height: 500px;
   width: 200px;
   background-color: #45414f;
   opacity: 50%;
@@ -76,10 +76,12 @@ p {
 }
 .secretTitle, .story, .houseMembers{
   visibility: hidden;
+  font-size: 0px;
 }
 
 .card:hover .secretTitle, .card:hover .story, .card:hover .houseMembers {
   visibility: visible;
+  font-size: 100%;
 }
 
 img{
