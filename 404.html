@@ -5,117 +5,250 @@
     <meta charset="utf-8">
     <title>Page Not Found</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="cssTheme" rel="stylesheet" href="css/themes/default.css" title="defaultStyle"/>
+    <link rel="stylesheet" href="css/style.css"/>
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Poppins:900&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
-        :root {
-            --blue: #0a2bc5;
-            --yellow: #ffcc2f;
+        #container {
+            width: 70vw;
+            margin: 30vw auto;
+        }
+        body{
+            font-size: 100%;
         }
 
-        body {
+        h2 {
+            text-align: center;
+            color: #6f105c;
+            font-size: 5em;
+            letter-spacing: 8px;
+            font-family: 'Press Start 2P', cursive;
+            font-weight: 400;
             margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Poppins', sans-serif;
-            background: var(--blue);
-            color: var(--yellow);
+            line-height: 0;
+            /*Animation*/
+
+            animation: glitch2 3s infinite;
         }
 
-        .container {
-            filter: url('#gooey');
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        h2:nth-child(2) {
+            color: #67f3da;
+            animation: glitch2 3s infinite;
         }
 
-        .liquid-1 {
-            position: relative;
+        h2:nth-child(3) {
+            color: #f16f6f;
+            animation: glitch3 3s infinite;
         }
+        /*Keyframes*/
 
-        span {
-            letter-spacing: 10px;
-            font-size: 8rem;
-        }
-
-        .drop {
-            position: absolute;
-            background: var(--yellow);
-            width: 22px;
-            height: 22px;
-            border-radius: 60% 70% 50% 60% / 65% 66% 60% 65%;
-            animation: 6s move ease infinite;
-        }
-
-        .drop:after {
-            width: 17px;
-            height: 17px;
-            content: '';
-            position: absolute;
-            background: var(--yellow);
-            border-radius: 50% 60% 60% 70% / 60% 65% 65% 65%;
-            left: 25px;
-            top: 3px;
-            animation: 6s drop_effect ease infinite;
-        }
-
-        svg {
-            position: absolute;
-        }
-
-        @keyframes move {
-            0%, 100% {
-                transform: translate(370px);
-            }
-
-            50% {
-                transform: translate(-370px);
-            }
-        }
-
-        @keyframes drop_effect {
+        @keyframes glitch2 {
             0% {
-                left: 0px;
+                transform: none;
+                opacity: 1;
             }
-            5% {
-                left: 35px;
+            7% {
+                transform: skew(-0.5deg, -0.9deg);
+                opacity: 0.75;
             }
-            45% {
-                left: 0px;
+            10% {
+                transform: none;
+                opacity: 1;
             }
-            50% {
-                left: 0px;
+            27% {
+                transform: none;
+                opacity: 1;
+            }
+            30% {
+                transform: skew(0.8deg, -0.1deg);
+                opacity: 0.75;
+            }
+            35% {
+                transform: none;
+                opacity: 1;
+            }
+            52% {
+                transform: none;
+                opacity: 1;
             }
             55% {
-                left: -30px;
+                transform: skew(-1deg, 0.2deg);
+                opacity: 0.75;
             }
-            95% {
-                left: 0px;
+            50% {
+                transform: none;
+                opacity: 1;
+            }
+            72% {
+                transform: none;
+                opacity: 1;
+            }
+            75% {
+                transform: skew(0.4deg, 1deg);
+                opacity: 0.75;
+            }
+            80% {
+                transform: none;
+                opacity: 1;
             }
             100% {
-                left: 0;
+                transform: none;
+                opacity: 1;
+            }
+        }
+
+        @keyframes glitch2 {
+            0% {
+                transform: none;
+                opacity: 0.25;
+            }
+            7% {
+                transform: translate(-2px, -3px);
+                opacity: 0.5;
+            }
+            10% {
+                transform: none;
+                opacity: 0.25;
+            }
+            27% {
+                transform: none;
+                opacity: 0.25;
+            }
+            30% {
+                transform: translate(-5px, -2px);
+                opacity: 0.5;
+            }
+            35% {
+                transform: none;
+                opacity: 0.25;
+            }
+            52% {
+                transform: none;
+                opacity: 0.25;
+            }
+            55% {
+                transform: translate(-5px, -1px);
+                opacity: 0.5;
+            }
+            50% {
+                transform: none;
+                opacity: 0.25;
+            }
+            72% {
+                transform: none;
+                opacity: 0.25;
+            }
+            75% {
+                transform: translate(-2px, -6px);
+                opacity: 0.5;
+            }
+            80% {
+                transform: none;
+                opacity: 0.25;
+            }
+            100% {
+                transform: none;
+                opacity: 0.25;
+            }
+        }
+
+        @keyframes glitch3 {
+            0% {
+                transform: none;
+                opacity: 0.25;
+            }
+            7% {
+                transform: translate(2px, 3px);
+                opacity: 0.5;
+            }
+            10% {
+                transform: none;
+                opacity: 0.25;
+            }
+            27% {
+                transform: none;
+                opacity: 0.25;
+            }
+            30% {
+                transform: translate(5px, 2px);
+                opacity: 0.5;
+            }
+            35% {
+                transform: none;
+                opacity: 0.25;
+            }
+            52% {
+                transform: none;
+                opacity: 0.25;
+            }
+            55% {
+                transform: translate(5px, 1px);
+                opacity: 0.5;
+            }
+            50% {
+                transform: none;
+                opacity: 0.25;
+            }
+            72% {
+                transform: none;
+                opacity: 0.25;
+            }
+            75% {
+                transform: translate(2px, 6px);
+                opacity: 0.5;
+            }
+            80% {
+                transform: none;
+                opacity: 0.25;
+            }
+            100% {
+                transform: none;
+                opacity: 0.25;
             }
         }
     </style>
 </head>
 
 <body>
-<div class="container">
-    <span>erreur 404</span>
-    <span class="drop"></span>
-</div>
+<header>
 
-<svg>
-    <defs>
-        <filter id="gooey">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
-            <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -20" result="gooey" />
-            <feComposite in="SourceGraphic" in2="gooey" operator="atop" />
-        </filter>
-    </defs>
-</svg>
+    <div id="menu">
+        <div id="cssThemeSwitcher">
+            <button id="defaultTheme" class="cssTheme"
+                    onclick="document.getElementById('cssTheme').href='css/themes/default.css';">Thème Default
+            </button>
+            <button id="crackendTheme" class="cssTheme"
+                    onclick="document.getElementById('cssTheme').href='css/themes/crackend.css';">Thème Crack'end
+            </button>
+            <button id="phoenixmlTheme" class="cssTheme"
+                    onclick="document.getElementById('cssTheme').href='css/themes/phoenixml.css';">Thème PhoeniXML
+            </button>
+            <button id="gistuneTheme" class="cssTheme"
+                    onclick="document.getElementById('cssTheme').href='css/themes/gitsune.css';">Thème Gistune
+            </button>
+        </div>
+
+        <div id="pagesMenu">
+            <img id="logo" src="img/logo.png" alt="logo">
+            <a class="menuLink" href="home.html">Accueil</a>
+            <a class="menuLink" href="home.html">Classements</a>
+            <a class="menuLink" href="houses.html">Maisons</a>
+            <a class="menuLink" href="rules.html">Règles</a>
+            <a class="menuLink" href="home.html">Défis</a>
+            <a class="menuLink" href="login.html">Login</a>
+        </div>
+    </div>
+
+</header>
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div id="container">
+    <h2>erreur 404</h2>
+    <h2>erreur 404</h2>
+    <h2>erreur 404</h2>
+</div>
 </body>
 
 </html>
