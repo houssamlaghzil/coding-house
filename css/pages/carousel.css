@@ -1,121 +1,121 @@
 html, body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 
 body {
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  background-color: #100e17;
-  font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #100e17;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
-  flex-grow: 1;
-  align-items: center;
-  justify-content: space-between;
-  align-content: center;
-  height: 100%;
-  width: 99%;
-  margin: 5px;
-  left: calc(50% - 300px);
-  display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    height: 100%;
+    width: 99%;
+    margin: 5px;
+    left: calc(50% - 300px);
+    display: flex;
 }
 
 .card {
-  flex-grow: 1;
-  align-items: center;
-  justify-content: space-between;
-  align-content: center;
-  display: flex;
-  height: 100%;
-  width: 200px;
-  background-color: #45414f;
-  opacity: 50%;
-  border-radius: 10px;
-  box-shadow: -1rem 0 3rem #000;
-  transition: 0.4s ease-out;
-  position: relative;
-  left: 0;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    display: flex;
+    height: 100%;
+    width: 200px;
+    background-color: #45414f;
+    opacity: 50%;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0;
 }
 
 .card:not(:first-child) {
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  margin-left: -50px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: -50px;
 }
 
 .card:hover {
-  z-index: 99999999;
-  opacity: 80%;
-  height: 100%;
-  width: 80%;
-  transform: translateY(-20px);
-  transition: 0.4s ease-out;
+    z-index: 99999999;
+    opacity: 80%;
+    height: 100%;
+    width: 80%;
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
 }
 
 .card:hover ~ .card {
-  position: relative;
-  left: 50px;
-  transition: 0.4s ease-out;
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
 }
 
 .title {
-  color: white;
-  font-weight: 300;
-  position: absolute;
-  left: 20px;
-  top: 15px;
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
 }
 
 .bar {
-  position: absolute;
-  top: 100px;
-  left: 20px;
-  height: 5px;
-  width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
 }
 
 .emptybar {
-  background-color: #2e3033;
-  width: 100%;
-  height: 100%;
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
 }
 
 .filledbar {
-  position: absolute;
-  top: 0px;
-  z-index: 3;
-  width: 0px;
-  height: 100%;
-  background: rgb(125, 131, 138);
-  background: linear-gradient(90deg, rgb(69, 65, 79) 0%, rgb(57, 8, 47) 65%, rgb(37, 14, 28) 100%);
-  transition: 0.6s ease-out;
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(125, 131, 138);
+    background: linear-gradient(90deg, rgb(69, 65, 79) 0%, rgb(57, 8, 47) 65%, rgb(37, 14, 28) 100%);
+    transition: 0.6s ease-out;
 }
 
 .card:hover .filledbar {
-  width: 120px;
-  transition: 0.4s ease-out;
+    width: 120px;
+    transition: 0.4s ease-out;
 }
 
 .stroke {
-  stroke: white;
-  stroke-dasharray: 360;
-  stroke-dashoffset: 360;
-  transition: 0.6s ease-out;
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
 }
 
 .card:hover .stroke {
-  stroke-dashoffset: 100;
-  transition: 0.6s ease-out;
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
 }
 
-p{
-  text-align: center;
-  color: white;
-  size: 10px;
+p {
+    text-align: center;
+    color: white;
+    size: 10px;
 }
