@@ -6,56 +6,116 @@
     <title>Page Not Found</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        * {
-            line-height: 1.2;
-            margin: 0;
-        }
+        @import url('https://fonts.googleapis.com/css?family=Poppins:900&display=swap');
 
-        html {
-            color: #888;
-            display: table;
-            font-family: sans-serif;
-            height: 100%;
-            text-align: center;
-            width: 100%;
+        :root {
+            --blue: #0a2bc5;
+            --yellow: #ffcc2f;
         }
 
         body {
-            display: table-cell;
-            vertical-align: middle;
-            margin: 2em auto;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+            background: var(--blue);
+            color: var(--yellow);
         }
 
-        h1 {
-            color: #555;
-            font-size: 2em;
-            font-weight: 400;
+        .container {
+            filter: url('#gooey');
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        p {
-            margin: 0 auto;
-            width: 280px;
+        .liquid-1 {
+            position: relative;
         }
 
-        @media only screen and (max-width: 280px) {
+        span {
+            letter-spacing: 10px;
+            font-size: 8rem;
+        }
 
-            body,
-            p {
-                width: 95%;
+        .drop {
+            position: absolute;
+            background: var(--yellow);
+            width: 22px;
+            height: 22px;
+            border-radius: 60% 70% 50% 60% / 65% 66% 60% 65%;
+            animation: 6s move ease infinite;
+        }
+
+        .drop:after {
+            width: 17px;
+            height: 17px;
+            content: '';
+            position: absolute;
+            background: var(--yellow);
+            border-radius: 50% 60% 60% 70% / 60% 65% 65% 65%;
+            left: 25px;
+            top: 3px;
+            animation: 6s drop_effect ease infinite;
+        }
+
+        svg {
+            position: absolute;
+        }
+
+        @keyframes move {
+            0%, 100% {
+                transform: translate(370px);
             }
 
-            h1 {
-                font-size: 1.5em;
-                margin: 0 0 0.3em;
+            50% {
+                transform: translate(-370px);
             }
+        }
 
+        @keyframes drop_effect {
+            0% {
+                left: 0px;
+            }
+            5% {
+                left: 35px;
+            }
+            45% {
+                left: 0px;
+            }
+            50% {
+                left: 0px;
+            }
+            55% {
+                left: -30px;
+            }
+            95% {
+                left: 0px;
+            }
+            100% {
+                left: 0;
+            }
         }
     </style>
 </head>
 
 <body>
-<h1>Page Not Found</h1>
-<p>Sorry, but the page you were trying to view does not exist.</p>
+<div class="container">
+    <span>erreur 404</span>
+    <span class="drop"></span>
+</div>
+
+<svg>
+    <defs>
+        <filter id="gooey">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+            <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -20" result="gooey" />
+            <feComposite in="SourceGraphic" in2="gooey" operator="atop" />
+        </filter>
+    </defs>
+</svg>
 </body>
 
 </html>
