@@ -137,14 +137,12 @@ footer {
 h2 {
   margin-top: 1em;
   color: white;
-  mix-blend-mode: difference;
   font-size: 150%;
 }
 
 p {
   margin: auto;
   color: white;
-  mix-blend-mode: difference;
 }
 
 li {
