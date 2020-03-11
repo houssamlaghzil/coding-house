@@ -74,15 +74,24 @@ p {
   justify-content: center;
   align-content: center;
 }
-.secretTitle, .story, .houseMembers{
+.secretTitle, .secret{
   visibility: hidden;
+}
+
+.secret{
   font-size: 0px;
 }
 
-.card:hover .secretTitle, .card:hover .story, .card:hover .houseMembers {
+.card:hover .secretTitle, .card:hover .secret {
   visibility: visible;
+}
+
+.card:hover .secret{
   font-size: 100%;
 }
+
+
+
 
 img{
   visibility: visible;
@@ -159,4 +168,17 @@ img{
 .card:hover .stroke {
   stroke-dashoffset: 100;
   transition: 0.6s ease-out;
+}
+
+.houseRankForm select, .houseRankForm button{
+  background-color: #bbbcc4;
+  border-radius: 20px;
+  border : 0px;
+  outline: none;
+  font-size: 100%;
+}
+
+.houseRankForm button:hover {
+  background-color: #7d838a;
+
 }
