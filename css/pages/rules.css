@@ -1,8 +1,20 @@
-p {
+p .rules{
     color: white;
     background-color: rgba(0, 0, 0, 0.56);
-    width: 100%;
     text-align: center;
     overflow: hidden;
     border-radius: 20px;
+}
+
+section#rules.rules{
+    margin-bottom: 25%;
+}
+
+html, body .rules{
+    margin: 0; padding: 0;
+}
+
+footer .rules{
+    display : table-row;
+    height: 100px;
 }
