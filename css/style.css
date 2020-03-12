@@ -2,6 +2,7 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -136,14 +137,12 @@ footer {
 h2 {
   margin-top: 1em;
   color: white;
-  mix-blend-mode: difference;
   font-size: 150%;
 }
 
 p {
   margin: auto;
   color: white;
-  mix-blend-mode: difference;
 }
 
 li {
