@@ -74,6 +74,7 @@ p {
   justify-content: center;
   align-content: center;
 }
+
 .secretTitle, .secret{
   visibility: hidden;
 }
@@ -89,9 +90,6 @@ p {
 .card:hover .secret{
   font-size: 100%;
 }
-
-
-
 
 img{
   visibility: visible;
@@ -180,5 +178,20 @@ img{
 
 .houseRankForm button:hover {
   background-color: #7d838a;
+}
 
+.houseMembers{
+  width: 100%;
+
+}
+
+.listMembers{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.listMembers p{
+  width: 47%;
 }
