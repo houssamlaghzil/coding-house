@@ -75,9 +75,7 @@
   </section>
 </section>
 
-<footer>
-  Coding Factory 2020
-</footer>
+<?php include("footer.php"); ?>
 
 </body>
 

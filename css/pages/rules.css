@@ -1,9 +1,7 @@
-p .rules {
+p {
   color: white;
-  background-color: rgba(0, 0, 0, 0.56);
   text-align: center;
   overflow: hidden;
-  border-radius: 20px;
 }
 
 section#rules.rules {
@@ -13,6 +11,10 @@ section#rules.rules {
 html, body .rules {
   margin: 0;
   padding: 0;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 1);
 }
 
 footer .rules {

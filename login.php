@@ -37,9 +37,7 @@ $numero = rand(0, 3);// un numero aléatoire de 0 à 3
     </section>
 </form>
 
-<footer class="login">
-    Coding Factory 2020
-</footer>
+<?php include("footer.php"); ?>
 
 </body>
 

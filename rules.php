@@ -41,9 +41,7 @@
     </p>
 </section>
 
-<footer class="rules">
-    Coding Factory 2020
-</footer>
+<?php include("footer.php"); ?>
 
 </body>
 

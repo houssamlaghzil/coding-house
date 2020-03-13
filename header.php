@@ -19,7 +19,7 @@
     <div id="pagesMenu">
       <img id="logo" src="img/logo.png" alt="logo">
       <a class="menuLink" href="home.php">Accueil</a>
-      <a class="menuLink" href="home.php">Classements</a>
+      <a class="menuLink" href="rankings.php">Classements</a>
       <a class="menuLink" href="houses.php">Maisons</a>
       <a class="menuLink" href="rules.php">Règles</a>
       <a class="menuLink" href="challenges.php">Défis</a>
