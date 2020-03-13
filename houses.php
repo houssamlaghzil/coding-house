@@ -12,36 +12,7 @@
 
 <body>
 
-<header>
-
-  <div id="menu">
-    <div id="cssThemeSwitcher">
-      <button id="defaultTheme" class="cssTheme"
-              onclick="document.getElementById('cssTheme').href='css/themes/default.css';">Thème Default
-      </button>
-      <button id="crackendTheme" class="cssTheme"
-              onclick="document.getElementById('cssTheme').href='css/themes/crackend.css';">Thème Crack'end
-      </button>
-      <button id="phoenixmlTheme" class="cssTheme"
-              onclick="document.getElementById('cssTheme').href='css/themes/phoenixml.css';">Thème PhoeniXML
-      </button>
-      <button id="gistuneTheme" class="cssTheme"
-              onclick="document.getElementById('cssTheme').href='css/themes/gitsune.css';">Thème Gistune
-      </button>
-    </div>
-
-    <div id="pagesMenu">
-      <img id="logo" src="img/logo.png" alt="logo">
-      <a class="menuLink" href="home.html">Accueil</a>
-      <a class="menuLink" href="home.html">Classements</a>
-      <a class="menuLink" href="houses.html">Maisons</a>
-      <a class="menuLink" href="rules.html">Règles</a>
-      <a class="menuLink" href="home.html">Défis</a>
-      <a class="menuLink" href="login.html">Login</a>
-    </div>
-  </div>
-
-</header>
+<?php include("header.php"); ?>
 
 <div class="container">
 

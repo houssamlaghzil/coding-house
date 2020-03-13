@@ -1,11 +1,4 @@
-.email {
-    font-size: 50px;
-    color: white;
-    border: #393939;
-    border-radius: 20px;
-}
-
-.password {
+.email, .password {
     font-size: 50px;
     color: white;
     border: #393939;
@@ -25,21 +18,19 @@ input:focus {
     border-radius: 15px;
     background: rgba(0, 0, 0, 0.7);
     color: #ffffff;
-    font-size: 30px;
+    /*font-size: 30px;*/
 }
 
 button {
     transition-duration: 0.7s;
     font-size: 20px;
     color: white;
-    background: rgba(52, 14, 46, 0.7);
+    background: rgb(69, 66, 79);
 }
 
 button:hover {
     transition-duration: 0.7s;
-    font-size: 20px;
-    color: #232323;
-    background: rgba(120, 0, 255, 0.7);
+    background: rgb(45, 34, 55);
 }
 
 section.login{
