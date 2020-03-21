@@ -1,3 +1,4 @@
+@import url("/css/SCSSGIT.css");
 /*backgroud*/
 .bg {
     animation: slide 5s ease-in-out infinite alternate;

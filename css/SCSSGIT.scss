@@ -1,5 +1,9 @@
-$color1:#E57373;
-$color2:#911a72;
+$themegit1:#836039;
+$themegit2:#b9b2a8;
+
+
+$color1:$themegit1 /* #E57373*/;
+$color2:$themegit2 /*#911a72*/;
 
 @mixin transition($in) {
   transition:$in;
@@ -63,7 +67,7 @@ body {
       height:5px;
       margin-top:3px;
       border-radius:2px;
-      background-color: #7d838a;
+      background-color: $themegit1;
     }
   }
 
@@ -83,6 +87,7 @@ body {
         text-decoration:none;
         display:inline-block;
         color: $color2;
+        background-color: rgba(131, 96, 57, 0.7);
         font-size:20px;
         @include transition(all 0.3s ease-in-out);
         border:3px solid transparent;

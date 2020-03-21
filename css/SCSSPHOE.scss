@@ -1,5 +1,8 @@
-$color1:#E57373;
-$color2:#911a72;
+$themephoe1: rgba(253, 169, 23, 0.85);
+$themephoe2:rgba(133, 3, 0, 0.77);
+
+$color1:$themephoe1 /* #E57373*/;
+$color2:$themephoe2 /*#911a72*/;
 
 @mixin transition($in) {
   transition:$in;
@@ -63,7 +66,7 @@ body {
       height:5px;
       margin-top:3px;
       border-radius:2px;
-      background-color: #7d838a;
+      background-color: $themephoe1;
     }
   }
 
@@ -83,6 +86,7 @@ body {
         text-decoration:none;
         display:inline-block;
         color: $color2;
+        background: rgba(253, 169, 23, 0.7);
         font-size:20px;
         @include transition(all 0.3s ease-in-out);
         border:3px solid transparent;

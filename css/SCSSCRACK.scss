@@ -1,6 +1,8 @@
-$color1:#E57373;
-$color2:#911a72;
+$themecrack1:#54a1be;
+$themecrack2:#000053;
 
+$color1: $themecrack1 /* #E57373*/;
+$color2: $themecrack1/*#911a72*/;
 @mixin transition($in) {
   transition:$in;
   -webkit-transition:$in;
@@ -63,7 +65,7 @@ body {
       height:5px;
       margin-top:3px;
       border-radius:2px;
-      background-color: #7d838a;
+      background-color: #000053;
     }
   }
 
@@ -83,6 +85,7 @@ body {
         text-decoration:none;
         display:inline-block;
         color: $color2;
+        background-color: rgba(0, 0, 83, 0.4);
         font-size:20px;
         @include transition(all 0.3s ease-in-out);
         border:3px solid transparent;

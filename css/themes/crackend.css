@@ -1,3 +1,4 @@
+@import url("/css/SCSSCRACK.css");
 /*backgroud*/
 .bg {
     animation: slide 5s ease-in-out infinite alternate;
