@@ -16,17 +16,6 @@ body {
 
 /*-----------------HEADER-----------------*/
 
-header {
-    height: auto;
-    width: 100%;
-    padding-bottom: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
-    background-color: #44153C;
-    color: #C8C8CF;
-}
 
 #cssThemeSwitcher {
     justify-content: center;

@@ -17,7 +17,7 @@ body {
   width: 500px;
   border-radius: 5px;
   background-color: transparent;
-  border: 3px solid rgba(133, 3, 0, 0.77);
+  border: 3px solid rgba(155, 3, 0, 0.77);
   height: 85px;
 }
 #mmeennuu:checked ~ .menu > ul {
@@ -33,7 +33,7 @@ body {
   margin: 30px auto;
   width: 100px;
   height: 100px;
-  background-color: rgba(133, 3, 0, 0.77);
+  background-color: rgba(155, 3, 0, 0.77);
   border: 3px solid transparent;
   border-radius: 50%;
   overflow: hidden;
@@ -76,7 +76,7 @@ body {
 .menu ul li a {
   text-decoration: none;
   display: inline-block;
-  color: rgba(133, 3, 0, 0.77);
+  color: rgba(155, 3, 0, 0.77);
   background: rgba(253, 169, 23, 0.7);
   font-size: 20px;
   transition: all 0.3s ease-in-out;
@@ -88,10 +88,10 @@ body {
   border-radius: 5px;
 }
 .menu ul li a:hover {
-  border-color: rgba(133, 3, 0, 0.77);
+  border-color: rgba(155, 3, 0, 0.77);
 }
 .menu ul li a:target {
-  border-bottom-color: rgba(133, 3, 0, 0.77);
+  border-bottom-color: rgba(155, 3, 0, 0.77);
 }
 
 /*# sourceMappingURL=SCSSPHOE.css.map */
