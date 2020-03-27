@@ -17,7 +17,7 @@ body {
   width: 500px;
   border-radius: 5px;
   background-color: transparent;
-  border: 3px solid #911a72;
+  border: 3px solid #000000;
   height: 85px;
 }
 #mmeennuu:checked ~ .menu > ul {
@@ -33,7 +33,7 @@ body {
   margin: 30px auto;
   width: 100px;
   height: 100px;
-  background-color: #911a72;
+  background-color: #000000;
   border: 3px solid transparent;
   border-radius: 50%;
   overflow: hidden;
@@ -76,7 +76,7 @@ body {
 .menu ul li a {
   text-decoration: none;
   display: inline-block;
-  color: #911a72;
+  color: #000000;
   font-size: 20px;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -87,10 +87,10 @@ body {
   border-radius: 5px;
 }
 .menu ul li a:hover {
-  border-color: #911a72;
+  border-color: #000000;
 }
 .menu ul li a:target {
-  border-bottom-color: #911a72;
+  border-bottom-color: #000000;
 }
 
 /*# sourceMappingURL=SCSS.css.map */
